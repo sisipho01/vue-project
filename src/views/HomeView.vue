@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <p class="italic">Hallo, Sanibonani, Molweni, Thobela, Dumela, Lumela, Abusheni, Sanibona, Avuwani, Salibonani, Hello welcome to my Portfolio!</p>
+
   </div>
 </template>
 
@@ -16,3 +16,19 @@ export default {
   }
 }
 </script>
+<style scoped>
+
+.italic{
+  font-family:cursive;
+  font-size: large;
+}
+.home {
+  background-image: url('https://i.postimg.cc/wvCnNFN3/a.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+</style>
