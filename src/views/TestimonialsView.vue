@@ -7,15 +7,15 @@
 
         <div v-for="Testimonial in Testimonials" :key="Testimonial" class="wrapper">
             <div class="card" style="width: 18rem;">
-      <img :src=Testimonial.img class="card-img-top" alt="...">
-      <div class="card-body">
+            <img :src=Testimonial.img class="card-img-top" alt="...">
+            <div class="card-body">
         
-        <p class="card-title">{{ Testimonial.name }}</p>
-        <p class="card-title">{{ Testimonial.title }}</p>
-        <p class="card-text">{{ Testimonial.test }}</p>
-      </div>
-    </div>
-    </div>
+            <p class="card-title">{{ Testimonial.name }}</p>
+            <p class="card-title">{{ Testimonial.title }}</p>
+            <p class="card-text">{{ Testimonial.test }}</p>
+            </div>
+            </div>
+        </div>
     </div>
 </template>
 
