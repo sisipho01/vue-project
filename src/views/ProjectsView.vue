@@ -1,20 +1,4 @@
 <template>
-    <div class="container" >
-    
-          <div v-for="project in Projects" :key="project" class="carousel-item">
-            <div class="carousel" style="width: 18rem;">
-                    
-                    <div class="carousel-body">
-                        <p class="card-title">{{ project.name }}</p>
-                        <br>
-                        <a :href="project.Netlify" class="btn btn-secondary">Netlify</a>
-                    </div>
-                </div>
-          </div>
-        </div>
-       
-</div>
-
  <div class="work">
         <div v-for="project in Projects" :key="Projects" class="work">
             <div class="card" style="width: 18rem;">
